@@ -60,8 +60,8 @@ OUTPUT_SINGLE_FILE  = False
 # Proxy Decodo
 PROXY_ENABLED     = True
 DECODO_HOST       = "dc.decodo.com"
-DECODO_USERNAME   = "sp182yfwi6"
-DECODO_PASSWORD   = "z4mu25ws~bQWC7oNtj"
+DECODO_USERNAME     = "<your-username>"
+DECODO_PASSWORD     = "<your-password>"
 DECODO_PORT_START = 10001
 DECODO_PORT_END   = 10500
 # ============================================================================
@@ -417,3 +417,4 @@ elif OUTPUT_COALESCE > 0:
 
 target_rdd.saveAsTextFile(OUTPUT_S3_DIR)
 job.commit()
+
