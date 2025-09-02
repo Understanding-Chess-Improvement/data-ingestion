@@ -1,0 +1,1 @@
+per quanto riguarda i file 'lichess_users.jsonl', 'lichess_games_matched.jsonl', 'lichess_activity_matched.jsonl', sono troppo grandi per l'upload, quindi sono stati caricati a scopo descrittivo i json della prima riga di ciascun file
