@@ -43,8 +43,8 @@ MAX_USERS       = None  # None = tutti
 # Proxy Decodo (opzionale)
 PROXY_ENABLED       = True
 DECODO_HOST         = "dc.decodo.com"
-DECODO_USERNAME     = "sp182yfwi6"
-DECODO_PASSWORD     = "z4mu25ws~bQWC7oNtj"
+DECODO_USERNAME     = "<your-username>"
+DECODO_PASSWORD     = "<your-password>"
 DECODO_PORT_START   = 10001
 DECODO_PORT_END     = 10500
 
@@ -448,3 +448,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
