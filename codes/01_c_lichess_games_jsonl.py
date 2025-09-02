@@ -49,8 +49,8 @@ REQUEST_TIMEOUT = 60
 # =========================
 PROXY_ENABLED   = True
 DECODO_HOST     = "dc.decodo.com"
-DECODO_USERNAME = "sp182yfwi6"
-DECODO_PASSWORD = "z4mu25ws~bQWC7oNtj"
+DECODO_USERNAME     = "<your-username>"
+DECODO_PASSWORD     = "<your-password>"
 DECODO_PORTS    = list(range(10001, 10501))
 
 _DECODO_POOL = [
@@ -445,3 +445,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
